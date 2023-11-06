@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "test_web": {
+      "signature": "12f6ed427b63d2b676152517751a386f",
+      "file": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "test_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d build; cp -r src/assets build/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jspsych/plugin-html-keyboard-response": "^1.1.2",
+    "build-if-changed": "^1.5.5",
+    "js-yaml": "^4.1.0",
+    "jspsych": "^7.3.3",
+    "pushkin-client": "^1.7.1",
+    "react": "^18.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "yalcSig": "12f6ed427b63d2b676152517751a386f"
+}
